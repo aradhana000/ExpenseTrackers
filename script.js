@@ -20,7 +20,7 @@ addBtn.addEventListener('click', function(){
         return;
     }
     
-    expenses.push({category,amount,date})
+    expenses.push({category,amount})
 
     totalAmount += amount;
     totalAmountCell.textContent=totalAmount;
